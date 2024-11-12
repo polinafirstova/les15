@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Спасибо</title>
+</head>
+<body>
+    <a href="{% url 'course_list' %}">Курсы</a>
+    <a href="{% url 'contact' %}">Контакты</a>
+    <h1>Спасибо за ваше сообщение!</h1>
+    <p>Имя: {{ name }}</p>
+    <p>Электронная почта: {{ email }}</p>
+    <p>Сообщение: {{ message }}</p>
+</body>
+</html>
